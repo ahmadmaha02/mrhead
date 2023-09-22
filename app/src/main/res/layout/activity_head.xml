@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/Body"
+        android:layout_width="237dp"
+        android:layout_height="437dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.302"
+        app:srcCompat="@drawable/body" />
+
+    <ImageView
+        android:id="@+id/Mata"
+        android:layout_width="137dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="188dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Body"
+        app:layout_constraintEnd_toEndOf="@+id/Body"
+        app:layout_constraintStart_toStartOf="@+id/Body"
+        app:srcCompat="@drawable/eyes" />
+
+    <ImageView
+        android:id="@+id/Janggut"
+        android:layout_width="258dp"
+        android:layout_height="141dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Body"
+        app:layout_constraintEnd_toEndOf="@+id/Body"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="@+id/Body"
+        app:layout_constraintTop_toTopOf="@+id/Body"
+        app:layout_constraintVertical_bias="0.969"
+        app:srcCompat="@drawable/beard" />
+
+    <ImageView
+        android:id="@+id/Alis"
+        android:layout_width="219dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Body"
+        app:layout_constraintEnd_toEndOf="@+id/Body"
+        app:layout_constraintStart_toStartOf="@+id/Body"
+        app:layout_constraintTop_toTopOf="@+id/Body"
+        app:layout_constraintVertical_bias="0.235"
+        app:srcCompat="@drawable/eyebrow" />
+
+
+    <ImageView
+        android:id="@+id/Rambut"
+        android:layout_width="300dp"
+        android:layout_height="132dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Body"
+        app:layout_constraintEnd_toEndOf="@+id/Body"
+        app:layout_constraintStart_toStartOf="@+id/Body"
+        app:layout_constraintTop_toTopOf="@+id/Body"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/hair" />
+
+
+    <ImageView
+        android:id="@+id/Kumis"
+        android:layout_width="211dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Body"
+        app:layout_constraintEnd_toEndOf="@+id/Body"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toStartOf="@+id/Body"
+        app:layout_constraintTop_toTopOf="@+id/Body"
+        app:layout_constraintVertical_bias="0.65"
+        app:srcCompat="@drawable/moustache" />
+
+    <CheckBox
+        android:id="@+id/boxBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="body"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <CheckBox
+        android:id="@+id/boxjanggut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Janggut"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669" />
+
+    <CheckBox
+        android:id="@+id/boxMata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mata"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669" />
+
+    <CheckBox
+        android:id="@+id/boxRambut"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:text="Rambut"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <CheckBox
+        android:id="@+id/boxAlis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.814"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <CheckBox
+        android:id="@+id/boxKumis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kumis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669" />
+
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="contact"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.295"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boxKumis" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/boxjanggut" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
